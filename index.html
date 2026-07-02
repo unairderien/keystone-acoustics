@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Keystone Acoustics. Custom Mechanical Keyboards, Tuned by Ear
+        </title>
+        <meta
+            name="description"
+            content="Keystone Acoustics builds custom mechanical keyboards, hand-assembled in small batches and tuned by ear. Every board is an instrument, not a peripheral."
+        />
+        <meta name="theme-color" content="#171614" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./src/style.css" />
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <header id="site-header">
+            <div class="wrap nav-row">
+                <a class="brand" href="#top"
+                    >Keystone Acoustics <small>EST. HAND-BUILT</small></a
+                >
+                <nav class="primary-nav" aria-label="Primary">
+                    <ul>
+                        <li><a href="#philosophy">Philosophy</a></li>
+                        <li><a href="#craft">Craft</a></li>
+                        <li><a href="#collection">Collection</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#cta">Waitlist</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main id="main">
+            <!-- ============ HERO ============ -->
+            <section class="hero" id="top">
+                <div class="wrap hero-grid">
+                    <div class="hero-copy" data-reveal>
+                        <span class="eyebrow">Custom mechanical keyboards</span>
+                        <h1>Every keystroke, <em>considered.</em></h1>
+                        <p class="hero-sub">
+                            Keystone Acoustics builds custom mechanical
+                            keyboards for people who notice the difference
+                            between good and exact. Each board is hand-assembled
+                            in small batches, tuned by ear, and finished to a
+                            standard most factories can't reach.
+                        </p>
+                        <p class="hero-sub" style="margin-top: var(--space-sm)">
+                            This isn't a peripheral. It's an instrument.
+                        </p>
+                        <div class="btn-row">
+                            <a class="btn btn--primary" href="#collection"
+                                >Explore the Collection</a
+                            >
+                            <a class="btn btn--ghost" href="#cta"
+                                >Book a Consultation</a
+                            >
+                        </div>
+                    </div>
+                    <div class="hero-visual" data-reveal>
+                        <div class="waveform-frame">
+                            <div class="waveform-frame__label">
+                                <span>ACOUSTIC SIGNATURE</span>
+                                <span id="waveform-status">IDLE</span>
+                            </div>
+                            <div
+                                id="waveform"
+                                role="img"
+                                aria-label="Animated equalizer visualizing a keyboard's acoustic signature. Move your cursor across it or click to hear the shape of a keystroke, visually."
+                            ></div>
+                            <p class="waveform-hint">
+                                move your cursor across the bars or click to
+                                strike a key
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ PHILOSOPHY ============ -->
+            <section
+                class="philosophy"
+                id="philosophy"
+                aria-labelledby="philosophy-heading"
+            >
+                <div class="wrap">
+                    <span class="eyebrow">Our philosophy</span>
+                    <h2 id="philosophy-heading">
+                        We started Keystone Acoustics because the keyboards we
+                        wanted didn't exist.
+                    </h2>
+                    <p class="lede">
+                        Mass production optimizes for speed and margin. We
+                        optimize for feel.
+                    </p>
+                    <p>
+                        That means sourcing switches by hand, testing dozens of
+                        foam and plate combinations for a single model, and
+                        rejecting builds that don't meet our sound profile, even
+                        after hours of work.
+                    </p>
+                    <p>
+                        A Keystone board is judged the same way a luthier judges
+                        a guitar: by how it responds under the hand, and how it
+                        sounds when it does.
+                    </p>
+                </div>
+            </section>
+
+            <!-- ============ CRAFTSMANSHIP ============ -->
+            <section id="craft" aria-labelledby="craft-heading">
+                <div class="wrap">
+                    <div class="section-head" data-reveal>
+                        <span class="eyebrow">Craftsmanship</span>
+                        <h2 id="craft-heading">
+                            Built the slow way, on purpose.
+                        </h2>
+                    </div>
+
+                    <div class="feature-row" data-reveal>
+                        <div class="feature-media">
+                            <img
+                                src="./src/assets/machined-not-molded.jpg"
+                                alt="Close-up of a raw aluminum keyboard case on a CNC mill, showing crisp machined edges before finishing"
+                                loading="lazy"
+                                width="640"
+                                height="480"
+                            />
+                        </div>
+                        <div class="feature-text">
+                            <span
+                                class="eyebrow"
+                                style="color: var(--color-steel)"
+                                >Machined, not molded</span
+                            >
+                            <h3>No seams. No flex. No compromise.</h3>
+                            <p>
+                                Our cases start as solid blocks of aluminum or
+                                brass. Each one is CNC-machined to tolerances of
+                                0.02mm, then hand-finished with a bead-blasted
+                                or anodized surface. No compromise between how a
+                                board looks and how it holds up.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row" data-reveal>
+                        <div class="feature-media">
+                            <img
+                                src="./src/assets/tuned-for-sound.jpg"
+                                alt="Macro photograph of a mechanical keyboard switch being hand-lubricated with a small brush under magnification"
+                                loading="lazy"
+                                width="640"
+                                height="480"
+                            />
+                        </div>
+                        <div class="feature-text">
+                            <span class="eyebrow">Tuned for sound</span>
+                            <h3>A sound that feels intentional.</h3>
+                            <p>
+                                We layer foam, film, and gasket mounts to shape
+                                a specific acoustic signature: deep and rounded,
+                                or crisp and articulate, depending on the build.
+                                Every switch is lubed by hand, one at a time,
+                                under magnification.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row" data-reveal>
+                        <div class="feature-media">
+                            <img
+                                src="./src/assets/stabilizers-that-disappear.jpg"
+                                alt="Detail shot of a keyboard stabilizer wire and slider being clipped and lubricated by hand before assembly"
+                                loading="lazy"
+                                width="640"
+                                height="480"
+                            />
+                        </div>
+                        <div class="feature-text">
+                            <span
+                                class="eyebrow"
+                                style="color: var(--color-steel)"
+                                >Stabilizers that disappear</span
+                            >
+                            <h3>
+                                Controlled, from the smallest key to the
+                                largest.
+                            </h3>
+                            <p>
+                                Rattle and inconsistency ruin an otherwise
+                                excellent board. We clip, band, and lube every
+                                stabilizer individually before final assembly,
+                                so the largest keys feel as controlled as the
+                                smallest.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-row" data-reveal>
+                        <div class="feature-media">
+                            <img
+                                src="./src/assets/finished-by-hand.jpg"
+                                alt="Set of dye-sublimated PBT keycaps being inspected under bright directional light for legend clarity and color consistency"
+                                loading="lazy"
+                                width="640"
+                                height="480"
+                            />
+                        </div>
+                        <div class="feature-text">
+                            <span
+                                class="eyebrow"
+                                style="color: var(--color-platinum)"
+                                >Finished by hand</span
+                            >
+                            <h3>Anything short of perfect doesn't ship.</h3>
+                            <p>
+                                Keycaps are dye-sublimated or double-shot molded
+                                to our specifications, then inspected under
+                                bright light for legend clarity and color
+                                consistency before a single unit leaves the
+                                bench.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ COLLECTION ============ -->
+            <section id="collection" aria-labelledby="collection-heading">
+                <div class="wrap">
+                    <div class="section-head" data-reveal>
+                        <span class="eyebrow">The collection</span>
+                        <h2 id="collection-heading">
+                            Three platforms. One standard.
+                        </h2>
+                        <p>
+                            Each model is available in 60%, 75%, and full-size
+                            layouts, with routing for wired or wireless
+                            operation.
+                        </p>
+                    </div>
+
+                    <div class="collection-grid">
+                        <article class="model-card" data-reveal>
+                            <div class="model-media">
+                                <span
+                                    class="model-swatch"
+                                    style="background: var(--color-brass)"
+                                    aria-hidden="true"
+                                ></span>
+                                <img
+                                    src="./src/assets/aurum.jpg"
+                                    alt="Aurum keyboard in solid brass with a gasket-mounted case, photographed at an angle to show its weight and finish"
+                                    loading="lazy"
+                                    width="480"
+                                    height="600"
+                                />
+                            </div>
+                            <div class="model-body">
+                                <h3>Aurum</h3>
+                                <span
+                                    class="model-tag"
+                                    style="color: var(--color-brass-bright)"
+                                    >Solid brass · gasket mount</span
+                                >
+                                <p>
+                                    Tuned for a warm, low-pitched thock. Built
+                                    for those who want weight, both literal and
+                                    acoustic.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="model-card" data-reveal>
+                            <div class="model-media">
+                                <span
+                                    class="model-swatch"
+                                    style="background: var(--color-steel)"
+                                    aria-hidden="true"
+                                ></span>
+                                <img
+                                    src="./src/assets/solstice.jpg"
+                                    alt="Solstice keyboard in anodized aluminum, shown in a light finish with a slim gasket-mounted profile"
+                                    loading="lazy"
+                                    width="480"
+                                    height="600"
+                                />
+                            </div>
+                            <div class="model-body">
+                                <h3>Solstice</h3>
+                                <span
+                                    class="model-tag"
+                                    style="color: var(--color-steel-bright)"
+                                    >Anodized aluminum · 5 finishes</span
+                                >
+                                <p>
+                                    A lighter build with a brighter, more
+                                    articulate voice. Our most versatile
+                                    platform.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="model-card" data-reveal>
+                            <div class="model-media">
+                                <span
+                                    class="model-swatch"
+                                    style="background: var(--color-platinum)"
+                                    aria-hidden="true"
+                                ></span>
+                                <img
+                                    src="./src/assets/monolith.jpg"
+                                    alt="Monolith keyboard milled from a single billet of metal with no visible screws, photographed against a dark background"
+                                    loading="lazy"
+                                    width="480"
+                                    height="600"
+                                />
+                            </div>
+                            <div class="model-body">
+                                <h3>Monolith</h3>
+                                <span
+                                    class="model-tag"
+                                    style="color: var(--color-platinum)"
+                                    >10 units per quarter</span
+                                >
+                                <p>
+                                    Milled from a single billet with no visible
+                                    screws. Reserved for clients who want
+                                    something no one else owns.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <p class="collection-note">
+                        Limited models sell out quickly. Monolith is capped at
+                        ten units per quarter.
+                    </p>
+                </div>
+            </section>
+
+            <!-- ============ SPECS ============ -->
+            <section id="specs" aria-labelledby="specs-heading">
+                <div class="wrap">
+                    <div class="section-head" data-reveal>
+                        <span class="eyebrow">Under the hood</span>
+                        <h2 id="specs-heading">Technical specifications</h2>
+                    </div>
+                    <div
+                        class="specs-table-wrap"
+                        tabindex="0"
+                        role="region"
+                        aria-label="Scrollable table of technical specifications"
+                        data-reveal
+                    >
+                        <table class="specs">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Feature</th>
+                                    <th scope="col">Detail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Case material</th>
+                                    <td>
+                                        CNC-machined 6061 aluminum or C260 brass
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Mounting style</th>
+                                    <td>
+                                        Gasket mount, five-degree tactile
+                                        dampening
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Plate options</th>
+                                    <td>Polycarbonate, FR4, or brass</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Switches</th>
+                                    <td>
+                                        Hand-lubed, factory or custom spring
+                                        weight
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Stabilizers</th>
+                                    <td>
+                                        Individually clipped, banded, and lubed
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Keycaps</th>
+                                    <td>
+                                        Dye-sublimated PBT or double-shot ABS
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Connectivity</th>
+                                    <td>
+                                        USB-C wired, optional 2.4GHz wireless
+                                        module
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Assembly time</th>
+                                    <td>40 to 60 hours per unit</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Build method</th>
+                                    <td>
+                                        Hand-assembled to order, no automated
+                                        lines
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ TESTIMONIAL ============ -->
+            <section aria-label="Client testimonial">
+                <div class="wrap">
+                    <div class="testimonial-card" data-reveal>
+                        <blockquote>
+                            I've owned keyboards that cost more and delivered
+                            less. What Keystone builds isn't just quiet or fast.
+                            It's coherent. Every part of the board agrees with
+                            every other part. You feel that the moment you type.
+                        </blockquote>
+                        <div class="testimonial-attrib">
+                            <img
+                                src="./src/assets/daniel-ferreira.jpg"
+                                alt="Portrait of Daniel Ferreira, sound engineer"
+                                loading="lazy"
+                                width="48"
+                                height="48"
+                            />
+                            <div>
+                                <div class="name">Daniel Ferreira</div>
+                                <div class="role">Sound Engineer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ PROCESS ============ -->
+            <section id="process" aria-labelledby="process-heading">
+                <div class="wrap">
+                    <div class="section-head" data-reveal>
+                        <span class="eyebrow">The process</span>
+                        <h2 id="process-heading">
+                            From conversation to keystroke.
+                        </h2>
+                    </div>
+                    <div class="process-grid">
+                        <div class="process-step" data-reveal>
+                            <span class="num">01</span>
+                            <h3>Consultation</h3>
+                            <p>
+                                We start with a conversation about how you type,
+                                what you value in sound and feel, and where the
+                                board will live.
+                            </p>
+                        </div>
+                        <div class="process-step" data-reveal>
+                            <span class="num">02</span>
+                            <h3>Design</h3>
+                            <p>
+                                You choose case material, layout, switch
+                                profile, and finish. We advise where it helps
+                                and stay quiet where it doesn't.
+                            </p>
+                        </div>
+                        <div class="process-step" data-reveal>
+                            <span class="num">03</span>
+                            <h3>Build</h3>
+                            <p>
+                                Your board is assembled, tuned, and tested by a
+                                single craftsperson from start to finish.
+                            </p>
+                        </div>
+                        <div class="process-step" data-reveal>
+                            <span class="num">04</span>
+                            <h3>Delivery</h3>
+                            <p>
+                                Each unit ships in a fitted case with a written
+                                record of its specifications and the name of the
+                                person who built it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============ CTA / WAITLIST ============ -->
+            <section class="cta-section" id="cta" aria-labelledby="cta-heading">
+                <div class="wrap cta-grid">
+                    <div class="cta-copy" data-reveal>
+                        <span class="eyebrow">Join the waitlist</span>
+                        <h2 id="cta-heading">
+                            A keyboard this deliberate isn't for everyone.
+                        </h2>
+                        <p>
+                            It's for the people who'd notice if it weren't. Tell
+                            us where to reach you and we'll follow up to start
+                            your consultation.
+                        </p>
+                        <p class="waitlist-note">
+                            Waitlist typically runs four to six weeks. Limited
+                            models sell out sooner.
+                        </p>
+                    </div>
+
+                    <form
+                        class="waitlist-form"
+                        id="waitlist-form"
+                        data-reveal
+                        novalidate
+                    >
+                        <div class="form-row">
+                            <label for="wl-name">Name</label>
+                            <input
+                                type="text"
+                                id="wl-name"
+                                name="name"
+                                autocomplete="name"
+                                aria-describedby="wl-name-error"
+                            />
+                            <p
+                                class="field-error"
+                                id="wl-name-error"
+                                role="alert"
+                            ></p>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="wl-email">Email</label>
+                            <input
+                                type="email"
+                                id="wl-email"
+                                name="email"
+                                autocomplete="email"
+                                aria-describedby="wl-email-error"
+                            />
+                            <p
+                                class="field-error"
+                                id="wl-email-error"
+                                role="alert"
+                            ></p>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="wl-model"
+                                >Model you're interested in</label
+                            >
+                            <select
+                                id="wl-model"
+                                name="model"
+                                aria-describedby="wl-model-error"
+                            >
+                                <option value="" selected disabled>
+                                    Select a model
+                                </option>
+                                <option value="aurum">Aurum: brass</option>
+                                <option value="solstice">
+                                    Solstice: aluminum
+                                </option>
+                                <option value="monolith">
+                                    Monolith: limited
+                                </option>
+                                <option value="unsure">Not sure yet</option>
+                            </select>
+                            <p
+                                class="field-error"
+                                id="wl-model-error"
+                                role="alert"
+                            ></p>
+                        </div>
+
+                        <!-- honeypot: legitimate visitors never see or fill this field -->
+                        <div class="honey" aria-hidden="true">
+                            <label for="wl-company">Company</label>
+                            <input
+                                type="text"
+                                id="wl-company"
+                                name="company"
+                                tabindex="-1"
+                                autocomplete="off"
+                            />
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="btn btn--primary"
+                            id="wl-submit"
+                        >
+                            Join the waitlist
+                        </button>
+                        <p
+                            class="form-status"
+                            id="wl-status"
+                            aria-live="polite"
+                        ></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="wrap">
+                <div class="footer-row">
+                    <a class="brand" href="#top"
+                        >Keystone Acoustics <small>EST. HAND-BUILT</small></a
+                    >
+                    <nav class="footer-nav" aria-label="Footer">
+                        <ul>
+                            <li><a href="#philosophy">Philosophy</a></li>
+                            <li><a href="#collection">Collection</a></li>
+                            <li><a href="#process">Process</a></li>
+                            <li><a href="#cta">Waitlist</a></li>
+                        </ul>
+                    </nav>
+                    <p class="footer-fine">
+                        &copy; 2026 Keystone Acoustics. Hand-built in small
+                        batches.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./src/main.js"></script>
+    </body>
+</html>
